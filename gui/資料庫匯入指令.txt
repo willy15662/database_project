@@ -1,0 +1,18 @@
+跟著lab2的教學安裝好mysql後
+打開terminal輸入指令：
+./mysql.exe -u root -p
+(輸入密碼1234)
+create database dinefinder;
+use dinefinder;
+source ./<your_path>/db/dinefinder_comments.sql;
+source ./<your_path>/db/dinefinder_customers_account.sql;
+source ./<your_path>/db/dinefinder_history.sql;
+source ./<your_path>/db/dinefinder_menus.sql;
+source ./<your_path>/db/dinefinder_owner_account.sql;
+source ./<your_path>/db/dinefinder_owner_restaurants.sql;
+source ./<your_path>/db/dinefinder_restaurant.sql;
+source ./<your_path>/db/dinefinder_routines.sql;
+source ./<your_path>/db/dinefinder_shortcuts.sql;
+
+把gui和database串起來的方法可以參考db.py
+主要就是透過每個class的self.UserInfo.info來取得用戶資料，像id, name, password...
