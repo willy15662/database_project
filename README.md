@@ -20,16 +20,16 @@
 ## 檔案結構
 ```
 restaurant-management/
-│── pageController.py       # 負責頁面切換 (無須修改)
-│── loginPage.py            # 登入頁面 (需修改 login_to_Main_Page())
-│── mainPage.py             # 控制顧客功能 (無須修改)
-│── search.py               # 搜尋與餐廳功能 (多個函數需修改)
-│── history.py              # 瀏覽紀錄 (多個函數需修改)
-│── shortcut.py             # 快捷功能 (多個函數需修改)
-│── comment.py              # 評論管理 (需修改 customer_comment_list())
-│── recommend.py            # 餐廳推薦 (多個函數需修改)
-│── personalInformation.py  # 個人資訊管理 (可修改個人資料)
-│── ownerMain.py            # 店主管理 (多個函數需修改)
+│── pageController.py       # 負責頁面切換
+│── loginPage.py            # 登入頁面 
+│── mainPage.py             # 控制顧客功能 
+│── search.py               # 搜尋與餐廳功能 
+│── history.py              # 瀏覽紀錄
+│── shortcut.py             # 快捷功能 
+│── comment.py              # 評論管理
+│── recommend.py            # 餐廳推薦 
+│── personalInformation.py  # 個人資訊管理 
+│── ownerMain.py            # 店主管理 
 └── README.md               # 專案說明文件
 ```
 ![image](https://github.com/user-attachments/assets/27fb33dd-9657-4fa4-9da7-ebd8ed4d295d)
